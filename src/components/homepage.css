@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homepage{
+  display:grid;
+  /* height:100vh; */
+ 
+}
+.header{
+  display:grid;
+  grid-auto-flow: column;
+  border-bottom: 1px solid rgb(41 41 41);
+  background-color: rgb(255 192 23);
+  padding:1rem;
+}
+.header h1{
+  cursor: pointer;
+}
+.header-nav{
+  list-style: none;
+  display:grid;
+  grid-auto-flow: column;
+  align-items: center;
+  place-content: end;
+  gap:20px;
+  cursor: pointer;
+}
+.sign_in{
+  all:unset
+}
+.get_started{
+  background-color: rgb(25 25 25);
+  color:white;
+ border-radius: 30px;
+ padding:5px 10px;
+ cursor: pointer;
+}
+main{
+  background-color: rgb(255 192 23);
+  height:70vh;
+  display:grid;
+ place-content:  center start;
+ gap:20px;
+ padding:1rem
+
+}
+main h1{
+  font-size: 4rem;
+}
+main h2{
+  font-size: 1.5rem;
+}
+.start_reading{
+  background-color: rgb(25 25 25);
+  color:white;
+  place-self: start;
+}
+.posts{
+ display: grid;
+ place-content: center;
+ padding: 1rem;
+ gap:20px;
+
+}
+.post{
+  display:grid;
+  place-content: center start;
+  width: 40vw;
+  cursor: pointer;
+
+}
+.post_header img{
+  width:25px;
+  height:25px;
+  border-radius: 50%;
+
+}
+.post_header{
+  display:grid;
+  grid-auto-flow: column;
+  place-content: start ;
+  align-items: center;
+  gap:8px;
+}
